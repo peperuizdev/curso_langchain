@@ -32,7 +32,7 @@ def analyze_sentiment(text):
   """Analiza el sentimiento y devuelve el resultado estructurado"""
   prompt = f"""Analiza el sentimiento del siguiente texto.
   Responde ÚNICAMENTE en formato JSON válido:
-  {{"sentimiento": "positivo |negativo|neutro", "razon": "justificación breve"}}
+  {{"sentimiento": "positivo|negativo|neutro", "razon": "justificación breve"}}
 
   Texto: {text}"""
 

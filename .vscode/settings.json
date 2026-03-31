@@ -2,6 +2,7 @@
   "python.defaultInterpreterPath": "/Users/pepe/Documents/curso_langchain/venv/bin/python3",
   "python.terminal.activateEnvironment": true,
   "python.terminal.activateEnvInCurrentTerminal": true,
+  "python.envFile": "${workspaceFolder}/.env",
   "python-envs.pythonProjects": [],
   "python-envs.defaultEnvManager": "ms-python.python:venv",
   "terminal.integrated.env.osx": {
